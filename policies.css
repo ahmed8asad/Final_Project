@@ -1,0 +1,74 @@
+/* DEVELOPER: Ahmed Asad, IS117-003, Fall 2023 -->*/
+
+.headers{
+    text-align:center;
+    center:center;
+    margin:auto;
+    font-size: 65px;
+    text-decoration: #0a58ca solid 3px underline;
+    display:block;
+    width: 105%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    background-image: linear-gradient(to right, rgba(255, 167, 167, 0.87), white, rgba(180, 180, 255, 0.79));
+    box-shadow: 3px 3px 30px #22252a;
+}
+#amheader{
+    text-align:center;
+    center:center;
+    margin:auto;
+    font-size: 65px;
+    text-decoration: #0a58ca solid 3px underline;
+    display:block;
+    width: 50%;
+    padding-top: 38px;
+    font-weight: bolder;
+    padding-bottom: 40px;
+}
+.subtexts{
+    font-weight: bold;
+    font-size: 190%;
+    padding-top: 19px;
+    color:orangered;
+    margin:auto;
+    text-align:center;
+}
+
+ol{
+    font-size: 25px;
+    padding-left: 100px;
+}
+body{
+    background-image: linear-gradient(to right, #f3f3f3, #eef6ff);
+    max-width: 99%;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #adc9e1;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+.mainbody{
+}
+#navbars{
+    box-shadow: 3px 3px 30px #22252a;
+}
+#am-descrip{
+    width: 60%;
+    text-align:center;
+    center:center;
+    margin:auto;
+    border: #9a9a9a 3px solid;
+    padding: 5px;
+    font-weight: bold;
+}
+.navbar-brand{
+    font-weight: bolder;
+    padding-left: 3px;
+}

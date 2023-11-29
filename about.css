@@ -1,0 +1,48 @@
+/* DEVELOPER: Ahmed Asad, IS117-003, Fall 2023 -->*/
+#navbars{
+    box-shadow: 3px 3px 30px #22252a;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+.headers{
+    text-align:center;
+    center:center;
+    margin:auto;
+    font-size: 50px;
+    text-decoration: #0a58ca solid 3px underline;
+    display:block;
+    color:white;
+    width: 100%;
+    padding-top: 10px;
+    font-weight: bolder;
+    background-color: #28287c;
+    box-shadow: black 3px 3px 30px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+body{
+    background-image: linear-gradient(to right, #ffb0b0, white, #d5d5ff);
+}
+
+#am-descrip{
+    center:center;
+    margin:auto;
+    padding:10px;
+    align-content: center;
+    border: #1b3d70 3px solid;
+    background-color: white;
+    width: 50%;
+}
+.navbar-brand{
+    font-weight: bolder;
+    padding-left: 3px;
+}

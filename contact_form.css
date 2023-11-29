@@ -1,0 +1,53 @@
+/* DEVELOPER: Ahmed Asad, IS117-003, Fall 2023 -->*/
+
+#form {
+    align: center;
+    width: 30%;
+    center: center;
+    margin: auto;
+    height: 23rem;
+    border: 3px #41464b solid;
+    border-radius: 20px;
+    padding: 6px;
+    background-color: #ffffff;
+}
+#contact-form-header{
+    text-align:center;
+    center:center;
+    margin:auto;
+    font-size: 50px;
+    text-decoration: #0a58ca solid 3px underline;
+    display:block;
+    width: 80%;
+    padding-top: 4px;
+    font-weight: bolder;
+}
+#contact-form-subtext{
+    text-align: center;
+    font-size: 23px;
+    color:orangered;
+}
+body{
+    background-color: #f3f3f3;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+.btn{
+    background-color: #7bafff;
+}
+#navbars{
+    box-shadow: 3px 3px 30px #22252a;
+}
+.navbar-brand{
+    font-weight: bolder;
+    padding-left: 3px;
+}

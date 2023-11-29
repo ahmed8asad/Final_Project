@@ -1,0 +1,80 @@
+/* DEVELOPER: Ahmed Asad, IS117-003, Fall 2023 -->*/
+
+#youtube{
+    width:23%;
+    height:23%;
+}
+#twitter{
+    width:23%;
+    height:23%;
+    border: black 3px;
+    outline: 3px black;
+    -webkit-filter: drop-shadow(2px 2px 0 #000000)
+    drop-shadow(-2px 2px 0 #000000)
+    drop-shadow(2px -2px 0 black)
+    drop-shadow(-2px -2px 0 black);
+
+    filter: drop-shadow(2px 2px 0 black)
+    drop-shadow(-2px 2px 0 black)
+    drop-shadow(2px -2px 0 black)
+    drop-shadow(-2px -2px 0 black);
+}
+
+#snapchat{
+    width:23%;
+    height:23%;
+}
+#instagram{
+    width:23%;
+    height:23%;
+}
+
+#navbars{
+    box-shadow: 3px 3px 30px #22252a;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #adc9e1;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+#socialmediaicon{
+    center:center;
+    align-content: center;
+    justify-content: center;
+    padding-left: 33%;
+}
+body{
+    background-image: linear-gradient(to right, #f3f3f3, #eef6ff);
+    max-width: 99%;
+}
+.headers{
+    text-align:center;
+    center:center;
+    margin:auto;
+    font-size: 65px;
+    text-decoration: #0a58ca solid 3px underline;
+    display:block;
+    width: 90%;
+    font-weight: bolder;
+    padding-top:3px;
+}
+#handletext{
+    text-align:center;
+    center:center;
+    margin:auto;
+    font-size: 45px;
+    text-decoration: orangered solid 3px underline;
+    display:block;
+    width: 90%;
+    font-weight: bolder;
+}
+.navbar-brand{
+    font-weight: bolder;
+    padding-left: 3px;
+}

@@ -1,0 +1,80 @@
+/* DEVELOPER: Ahmed Asad, IS117-003, Fall 2023 -->*/
+
+#navbars{
+    box-shadow: 3px 3px 30px #22252a;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+.headers{
+    text-align:center;
+    center:center;
+    margin:auto;
+    font-size: 50px;
+    text-decoration: #0a58ca solid 3px underline;
+    display:block;
+    color:white;
+    width: 80%;
+    padding-top: 30px;
+    font-weight: bolder;
+}
+.subtexts{
+    font-weight: bold;
+    font-size: 150%;
+    padding-top: 5px;
+    color:orangered;
+    margin:auto;
+    text-align:center;
+    padding-bottom: 30px;
+}
+.topsection{
+    background-color: #28287c;
+    box-shadow: black 3px 3px 30px;
+    margin-bottom: 30px;
+}
+p{
+    font-size: 25px;
+}
+.rightquote{
+    padding-left: 2%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.rightquotecred{
+    margin-top: 0;
+    padding-top: 0px;
+    font-style: italic;
+    padding-left:10%;
+    padding-bottom: 20px;
+}
+.leftquote{
+    text-align:right;
+    padding-right:2%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.leftquotecred{
+    margin-top: 0;
+    text-align:right;
+    padding-top: 0px;
+    font-style: italic;
+    padding-right:10%;
+    padding-bottom:20px;
+}
+
+.quote:hover {
+    font-weight: bolder;
+}
+
+.navbar-brand{
+    font-weight: bolder;
+    padding-left: 3px;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!-- DEVELOPER: Ahmed Asad, IS117-003, Fall 2023 -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Form</title>
+    <!-- Boostrap Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="contact_form.css">
+
+</head>
+<body>
+<div class="row" id="navbars">
+    <nav class="navbar navbar-expand-md
+                    justify-content-md-evenly
+                    bg-dark navbar-dark
+                    col-12">
+
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">Asad 2044</a>
+        <!-- Responsive Button for the smaller menu -->
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-sm-center"  id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <!-- Links -->
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="policiesnavbardrop"
+                       data-toggle="dropdown"  role="button" data-bs-toggle="dropdown"
+                       aria-expanded="false">
+                        Policies
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="policies.html">Policies</a>
+                        <a class="dropdown-item" href="goals.html">Overall Goals</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="aboutnavbardrop"
+                       data-toggle="dropdown"  role="button" data-bs-toggle="dropdown"
+                       aria-expanded="false">
+                        About
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="about.html"> About Me</a>
+                        <a class="dropdown-item" href="personal_endorsements.html">Personal Endorsements</a>
+                        <a class="dropdown-item" href="celebrity_endorsements.html">Celebrity Endorsements</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="contactnavbardrop"
+                       data-toggle="dropdown"  role="button" data-bs-toggle="dropdown"
+                       aria-expanded="false">
+                        Contact Me
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="Content_form.html">Contact Form</a>
+                        <a class="dropdown-item" href="social_media.html">Social Media</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+</div>
+
+
+<!-- Contact form -->
+<h2  id="contact-form-header" >Contact Me</h2>
+<h4 id="contact-form-subtext">Your voice matters</h4>
+<div id="form" class="row align-items-center">
+    <form action="">
+        <div class="form-group height" id="contact-form">
+            <label for="firstname">First Name:</label>
+            <input type="text" class="form-control" id="firstname"
+                   placeholder="First name" name="firstname">
+        </div>
+        <div class="form-group">
+            <label for="lastname">Last Name:</label>
+            <input type="text" class="form-control" id="lastname"
+                   placeholder="Last name" name="lastname">
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" class="form-control" id="email"
+                   placeholder="Enter email" name="email">
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <input type="text" class="form-control" id="message"
+                   placeholder="Message" name="message">
+            <div class="col-auto">
+                 <span id="passwordHelpInline" class="form-text">
+                     Any feedback or questions help!
+            </span>
+            </div>
+        </div>
+        <div class="form-group form-check">
+            <label class="form-check-label">
+                <input class="form-check-input"
+                       type="checkbox" name="subscribe"> Subscribe
+            </label>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+    </form>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+<footer class="footer page-footer font-small ">
+    <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy; Ahmed Asad, 2023 |  Terms Of Use  |  Privacy Statement</span>
+        </div>
+    </div>
+</footer>
+
+</html>
